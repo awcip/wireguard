@@ -93,7 +93,7 @@ To create the interface on boot we need a systemd-service.
 `/etc/systemd/system/wg.service`
 ```
 [Unit]
-Description = Creating wg and bond0 interface
+Description = Create wg interface
 After = network.target
 
 [Service]
